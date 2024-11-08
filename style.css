@@ -1,0 +1,33 @@
+.background {
+    background-image: url('burger.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    text-align: center;
+    max-width: 300px; 
+}
+
+#orderSection {
+    height: 100vh; /* Full viewport height */
+    overflow-y: auto; /* Scroll if content overflows */
+    padding: 30px;
+    background-color: #f8f9fa;
+}
+
+.order-section {
+    padding: 2rem 1rem;
+    background-color: #f8f9fa;
+}
+
+.card img {
+    height: 12rem; /* Reduces the height of the image */
+    object-fit: cover;
+}
