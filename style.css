@@ -16,8 +16,8 @@
 }
 
 #orderSection {
-    height: 100vh; /* Full viewport height */
-    overflow-y: auto; /* Scroll if content overflows */
+    height: 100vh; 
+    overflow-y: auto; 
     padding: 30px;
     background-color: #f8f9fa;
 }
@@ -28,6 +28,22 @@
 }
 
 .card img {
-    height: 12rem; /* Reduces the height of the image */
+    height: 12rem; 
     object-fit: cover;
+}
+
+.title-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly scale up the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
